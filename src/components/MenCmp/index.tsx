@@ -18,6 +18,9 @@ const MenCmp = () => {
                     <div className="line health">
                         <span/>
                     </div>
+                    <span>
+                        100 / 100
+                    </span>
                 </div>
 
                 <div className="stats_item">
@@ -25,6 +28,9 @@ const MenCmp = () => {
                     <div className="line mana">
                         <span/>
                     </div>
+                    <span>
+                        100 / 100
+                    </span>
                 </div>
             </article>
         </article>
