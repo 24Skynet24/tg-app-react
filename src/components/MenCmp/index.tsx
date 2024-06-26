@@ -8,9 +8,16 @@ import "./men.scss"
 
 
 const MenCmp = () => {
+    const handleClick = (e: any): void => {
+        e.target.className = 'men_img men_hover'
+        setTimeout(() => {
+            e.target.className = 'men_img'
+        }, 50)
+    }
+
     return (
         <article className="men_cmp">
-            <img src={menImg} alt="Men" className="men_img"/>
+            <img src={menImg} alt="Men" className="men_img" onClick={handleClick}/>
 
             <article className="stats">
                 <div className="stats_item">
