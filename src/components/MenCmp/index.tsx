@@ -9,7 +9,7 @@ import {useState} from "react";
 
 
 const MenCmp = () => {
-    const [mana, setMana] = useState(90)
+    const [mana, setMana] = useState(0)
     const [hp, setHp] = useState(0)
 
     const handleClick = (e: any): void => {
