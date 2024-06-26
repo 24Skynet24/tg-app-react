@@ -1,3 +1,4 @@
+// @ts-ignore
 import menImg from "../../assets/img/men.webp"
 import "./men.scss"
 
