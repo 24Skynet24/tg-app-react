@@ -44,8 +44,9 @@ article.men_cmp {
           left: 0;
           top: 0;
           display: block;
-          width: 100%;
+          width: 0;
           height: 100%;
+          transition: .2s;
         }
       }
 
@@ -57,9 +58,9 @@ article.men_cmp {
       }
 
       .mana {
-        border-color: blue;
+        border-color: gold;
         span {
-          background: blue;
+          background: gold;
         }
       }
 
