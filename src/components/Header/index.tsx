@@ -6,7 +6,6 @@ const Header = () => {
 
     return (
         <header>
-            <span>Your name:</span>
             <strong>{ user?.username }</strong>
         </header>
     );
