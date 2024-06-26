@@ -1,6 +1,6 @@
 import "./DefaultButton.scss"
 
-const DefaultButton = (props) => {
+const DefaultButton = (props: any) => {
     return (
         <button {...props}>
             Toggle
