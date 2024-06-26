@@ -2,11 +2,12 @@ import "./header.scss"
 import {useTelegram} from "../../hooks/useTelegram";
 
 const Header = () => {
-    const {user} = useTelegram()
+    const {tg, user} = useTelegram()
 
     return (
         <header>
             User name: { user?.username }
+            MainButton: { tg?.MainButton.isVisible }
         </header>
     );
 };
