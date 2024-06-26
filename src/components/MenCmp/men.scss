@@ -1,0 +1,10 @@
+article.men_cmp {
+  width: 80%;
+  margin: auto;
+
+  img {
+    width: 100%;
+    max-height: 80vh;
+    height: var(--tg-viewport-height);
+  }
+}
