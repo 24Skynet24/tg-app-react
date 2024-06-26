@@ -1,0 +1,16 @@
+header {
+  width: 100%;
+  padding: .5rem 1rem;
+  border-bottom: 1px solid #FFFFFF;
+
+  span {
+    font-size: 1.6rem;
+    color: #FFF;
+    margin-right: 1rem;
+  }
+  
+  strong {
+    font-size: 1.8rem;
+    color: var(--tg-theme-text-color);
+  }
+}
