@@ -10,11 +10,12 @@ article.men_cmp {
   }
 
   .stats {
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding-bottom: 2rem;
 
     &_item {
       display: flex;
