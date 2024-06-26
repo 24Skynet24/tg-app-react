@@ -1,6 +1,8 @@
 // @ts-ignore
 import menImg from "../../assets/img/men.webp"
+// @ts-ignore
 import heartImg from "../../assets/img/heart.svg"
+// @ts-ignore
 import manaImg from "../../assets/img/mana.svg"
 import "./men.scss"
 
