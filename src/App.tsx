@@ -14,7 +14,7 @@ function App() {
   return (
     <>
         <Header/>
-        <DefaultButton onClick={onToggleButton()}/>
+        <DefaultButton onClick={onToggleButton}/>
     </>
   )
 }
