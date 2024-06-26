@@ -12,7 +12,7 @@ const MenCmp = () => {
         e.target.className = 'men_img men_hover'
         setTimeout(() => {
             e.target.className = 'men_img'
-        }, 50)
+        }, 100)
     }
 
     return (
